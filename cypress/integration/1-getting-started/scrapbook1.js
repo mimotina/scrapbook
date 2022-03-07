@@ -2,7 +2,7 @@ import Login from '../PageObject/log'
 //click the Packages. n - the number of Packages 
 let n = 0
 // p - amount of photo
-let p = 7
+let p = 5
 let totalSum;
 let newSum;
 
@@ -65,8 +65,11 @@ describe('Select photo', () => {
                 cy.log('Actual', totalSum)
                 cy.log('Expected', price1)
             })
+            if (p<amount){then(stop)}
         })
     })
+
+
 /*}) 
 
 describe('Change photos', () => {
