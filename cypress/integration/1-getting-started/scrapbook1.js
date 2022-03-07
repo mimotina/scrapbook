@@ -2,7 +2,7 @@ import Login from '../PageObject/log'
 //click the Packages. n - the number of Packages 
 let n = 0
 // p - amount of photo
-let p = 5
+let p = 6
 let totalSum;
 let newSum;
 
